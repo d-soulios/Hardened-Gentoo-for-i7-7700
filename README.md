@@ -24,7 +24,7 @@ Configured a strict access control policy:
 *Default policy: deny incoming, allow outgoing
 *Explicitly allowed port 22 (SSH) for secure access.
 
-### SSH Daemon Harening
+### SSH Daemon Hardening
 Secured /etc/ssh/sshd_config against brute-force attacks:
 *Disabled Root Login: PermitRootLogin no
 *Disabled Passwords: PasswordAuthentication no
